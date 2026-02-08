@@ -7,12 +7,12 @@
 - ✅ All the April Tags are printed
 - ✅ Code -> Limelight -> Motor, works
 
-## Next Steps
+## Plan for February
 - [ ] Regular updates + cool workflow (consistency in the github organisation)
 - [ ] All software members interact with github and the real robot
 - [ ] Complete PathPlanner (understand it)
-- [ ] Complete advanced limelight control (understand it) 
+- [ ] Complete advanced limelight control (understand it)
+- [ ] Software members organise successfully event on the 14 and the 24th. 
 
 ## Reflections
-- Inefficient code sharing system, github usage will help.
 - Need to involve more practice on the real robot
