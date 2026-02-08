@@ -3,16 +3,16 @@
 **Date:** 2026-02-08
 
 ## Accomplishments
-- ✅ Set up the creative hub repository structure
-- ✅ Created directories for tasks, progress, ideas, instructions, and info
-- ✅ Added README files with guidance for each section
-- ✅ Created templates for quick start
+- ✅ Created organisation and various repositories
+- ✅ All the April Tags are printed
+- ✅ Code -> Limelight -> Motor, works
 
 ## Next Steps
-- [ ] Add your first task list
-- [ ] Capture your first idea
-- [ ] Set up your workflow for regular updates
-- [ ] Customize the structure to fit your needs
+- [ ] Regular updates + cool workflow (consistency in the github organisation)
+- [ ] All software members interact with github and the real robot
+- [ ] Complete PathPlanner (understand it)
+- [ ] Complete advanced limelight control (understand it) 
 
 ## Reflections
-The foundation is now in place! This hub is ready to help organize thoughts, track progress, and manage information. The key to success will be consistent use and regular updates.
+- Inefficient code sharing system, github usage will help.
+- Need to involve more practice on the real robot
