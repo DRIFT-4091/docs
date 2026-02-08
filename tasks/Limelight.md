@@ -13,4 +13,5 @@
 - [x] Simple limelight -> shooter connection (Completed: 2026-02-07)
 
 ## Notes
-Yegor needs push the code worked on Saturday
+* Yegor needs push the code worked on Saturday
+* Please ensure that you're proficient with github, git and markdown
