@@ -135,5 +135,5 @@ void loop() {
 Please ensure that you're proficient with github, git and markdown.
 When done, please make a pull request, where you put the tasks that you've done so far, so I can know
 
-** Yegor, please construct the other robot ** 
+**Yegor, please construct the other robot**
 
