@@ -10,26 +10,21 @@
       ** Download "_Tetrix PRIZM Arduino library_" **
       ** Download "_Legacy TETRIX Tele-Op Module with PRIZM Arduino Library_" **
 - [ ] You must understands the methods below (and explain them), and be able to write this code yourself (Due: 2026-02-13)
-        ```
-          /*  TETRIX TeleOp Module example code for a genuine SONY PS4 gaming controller.
- *  Date: 09/25/2018
- *  Author: PWU
- *   
- *  This example demonstrates how to read the SONY PS4 gaming controller's Digital buttons, Analog Trigger buttons and Joysticks using the TETRIX TeleOP module connected to TETRIX PRIZM robotics controller.
- *  There is also built-in functionality for setting the color of the PS4 controller LED and for controlling the internal rumble (vibration) motors.
- *  Be sure to open the Arudino Serial Monitor and set the baud rate to 115200.
- * 
- *  IMPORTANT !! - To begin using a PS4 controller with the TeleOp module, you must first pair it to the Bluetooth Dongle. To do this, be sure the TeleOp module's
- *  Bluetooth dongle is inserted into the USB host port and the PS4 controller's battery is fully charged. Next, power up the module. After 3 - 4 seconds, the green LED should be blinking rapidly. 
- *  Most Bluetooth dongles will also have a blinking indicator as well. To proceed with pairing the controller to the dongle, press and hold down the SHARE and POWER button on the PS4 controller until
- *  the LED light on the controller begins to blink rapidly. This indicates that the PS4 is now in Discovery Mode. Release the buttons. Once in discovery mode, press the MODE button on the TeleOp module. 
- *  The RED LED will come on indicating that the TeleOp module is attempting to pair with the PS4 that is in discovery mode. When they have successfully paired, the TeleOp module's RED LED will turn off
- *  and the GREEN LED will turn on solid (no blink). In addition, the PS4's LED color will change to solid GREEN. Note, you only need to pair the devices once. After they are paired, you simply 
- *  power up the TeleOp module, then turn on your paired PS4 controller. The PS4 will do a slow LED blink while it is linking, then switch to solid GREEN color once they're linked. This could take
- *  up to 10 seconds to link.
- * 
- *  The TETRIX TeleOP module Arduino Library enables support for interfacing the PS4 gaming controller using the following commands:
- *    
+
+      ```cpp
+/*  TETRIX TeleOp Module example code for a genuine SONY PS4 gaming controller.
+Date: 09/25/2018
+Author: PWU
+- This example demonstrates how to read the SONY PS4 gaming controller's Digital buttons, Analog Trigger buttons and Joysticks using the TETRIX TeleOP module connected to TETRIX PRIZM robotics controller.
+There is also built-in functionality for setting the color of the PS4 controller LED and for controlling the internal rumble (vibration) motors.
+- Be sure to open the Arudino Serial Monitor and set the baud rate to 115200.
+IMPORTANT !! - To begin using a PS4 controller with the TeleOp module, you must first pair it to the Bluetooth Dongle. To do this, be sure the TeleOp module's
+- Bluetooth dongle is inserted into the USB host port and the PS4 controller's battery is fully charged. Next, power up the module. After 3 - 4 seconds, the green LED should be blinking rapidly.
+- Most Bluetooth dongles will also have a blinking indicator as well. To proceed with pairing the controller to the dongle, press and hold down the SHARE and POWER button on the PS4 controller until the LED light on the controller begins to blink rapidly. This indicates that the PS4 is now in Discovery Mode. Release the buttons. Once in discovery mode, press the MODE button on the TeleOp module. 
+- The RED LED will come on indicating that the TeleOp module is attempting to pair with the PS4 that is in discovery mode. When they have successfully paired, the TeleOp module's RED LED will turn off and the GREEN LED will turn on solid (no blink). In addition, the PS4's LED color will change to solid GREEN. Note, you only need to pair the devices once.
+- After they are paired, you simply power up the TeleOp module, then turn on your paired PS4 controller. The PS4 will do a slow LED blink while it is linking, then switch to solid GREEN color once they're linked. This could take up to 10 seconds to link.
+
+- The TETRIX TeleOP module Arduino Library enables support for interfacing the PS4 gaming controller using the following commands:   
  *  ps4.getPS4();         reads PS4 connections status and data from all digital and analog buttons and joysticks. This function should be called as frequently as possible in the main Arduino Sketch Loop to ensure data from PS4 controller is the latest.
  *  
  *  ps4.Connected;        returns PS4 connection status                           (0 = disconnected; 1 = connected)  
