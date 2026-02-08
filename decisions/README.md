@@ -22,7 +22,7 @@ Architecture Decision Records help teams:
 Use this template when creating new Architecture Decision Records:
 
 ```markdown
-# ADR-002: Autonomous Framework Selection
+# ADR-XXX: [Decision Title]
 
 ## Status
 Accepted | Superseded | Deprecated
