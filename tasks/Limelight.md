@@ -1,7 +1,7 @@
-# [Project/Area Name] - Tasks
+# [Limelight] - Tasks
 
-**Created:** YYYY-MM-DD
-**Last Updated:** YYYY-MM-DD
+**Created:** 2026-02-07
+**Last Updated:** 2026-01-07
 
 ## Tasks
 - [ ] Understand the complete limelight code (Due: 2026-02-13)
