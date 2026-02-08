@@ -4,24 +4,7 @@ Welcome to your creative hub! Here's how to get started:
 
 ## Creating Your First Entries
 
-### 1. Add a Task List
-```bash
-# Copy the template
-cp tasks/template.md tasks/my-first-project.md
-
-# Edit with your tasks
-# Update the title, add your to-dos, set priorities
-```
-
-### 2. Log Your Progress
-```bash
-# Copy the template with today's date
-cp progress/template.md progress/2026-02-08-my-progress.md
-
-# Document what you've accomplished
-```
-
-### 3. Capture an Idea
+### 1. Capture an Idea
 ```bash
 # Copy the template
 cp ideas/template.md ideas/my-awesome-idea.md
@@ -29,12 +12,26 @@ cp ideas/template.md ideas/my-awesome-idea.md
 # Fill in your idea details
 ```
 
+### 2. Create an ADR (Architecture Decision Record)
+```bash
+# Copy the template
+cp decisions/template.md decisions/ADR-###-decision-title.md
+
+# Document your decision
+```
+
+### 3. Add Instructions
+```bash
+# Create a new instruction file
+# in the instructions directory with clear steps
+```
+
 ## Daily Workflow Suggestion
 
-1. **Morning**: Review tasks for the day in `/tasks`
-2. **Throughout the day**: Capture ideas in `/ideas` as they come
-3. **Evening**: Update progress in `/progress` with what was accomplished
-4. **Weekly**: Review and organize all sections, archive completed items
+1. **Throughout the day**: Capture ideas in `/ideas` as they come
+2. **As needed**: Document important decisions in `/decisions` using ADR format
+3. **Regularly**: Update `/instructions` with how-to guides and procedures
+4. **Weekly**: Review and organize all sections, update as needed
 
 ## Organization Tips
 
@@ -45,8 +42,8 @@ cp ideas/template.md ideas/my-awesome-idea.md
 
 ## Next Steps
 
-- [ ] Create your first task list
-- [ ] Add an idea that's been on your mind
+- [ ] Create your first idea document
+- [ ] Review the existing ADRs in the decisions folder
 - [ ] Set up a weekly review reminder
 - [ ] Customize the structure to fit your workflow
 

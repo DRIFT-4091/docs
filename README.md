@@ -4,12 +4,6 @@ Welcome to the creative hub! This repository is a centralized space for tracking
 
 ## 📁 Repository Structure
 
-### [📋 Tasks](./tasks)
-Track to-dos, action items, and project tasks. Use this for organizing what needs to be done.
-
-### [📈 Progress](./progress)
-Document achievements, milestones, and growth over time. Reflect on what's been accomplished and learned.
-
 ### [💡 Ideas](./ideas)
 Capture creative ideas, brainstorms, and future possibilities. A space for thinking without constraints.
 
@@ -18,9 +12,6 @@ Store how-to guides, procedures, and step-by-step instructions for recurring tas
 
 ### [🎯 Decisions](./decisions)
 Document Architecture Decision Records (ADRs) for important technical and strategic decisions.
-
-### [ℹ️ Info](./info)
-Keep important information, references, resources, and key details organized and accessible.
 
 ## 🚀 Getting Started
 
@@ -40,8 +31,6 @@ Keep important information, references, resources, and key details organized and
 ## 📝 Quick Links
 
 - [Quick Start Guide](./QUICK_START.md) - Get started using the hub
-- [Create a new task](./tasks/template.md)
-- [Log progress](./progress/template.md)
 - [Capture an idea](./ideas/template.md)
 - [Create a new ADR](./decisions/template.md)
 
