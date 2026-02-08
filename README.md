@@ -36,6 +36,7 @@ Keep important information, references, resources, and key details organized and
 
 ## 📝 Quick Links
 
+- [Quick Start Guide](./QUICK_START.md) - Get started using the hub
 - [Create a new task](./tasks/template.md)
 - [Log progress](./progress/template.md)
 - [Capture an idea](./ideas/template.md)
