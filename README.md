@@ -16,6 +16,9 @@ Capture creative ideas, brainstorms, and future possibilities. A space for think
 ### [📖 Instructions](./instructions)
 Store how-to guides, procedures, and step-by-step instructions for recurring tasks and processes.
 
+### [🎯 Decisions](./decisions)
+Document Architecture Decision Records (ADRs) for important technical and strategic decisions.
+
 ### [ℹ️ Info](./info)
 Keep important information, references, resources, and key details organized and accessible.
 
@@ -40,6 +43,7 @@ Keep important information, references, resources, and key details organized and
 - [Create a new task](./tasks/template.md)
 - [Log progress](./progress/template.md)
 - [Capture an idea](./ideas/template.md)
+- [Create a new ADR](./decisions/template.md)
 
 ---
 
