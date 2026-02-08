@@ -13,4 +13,4 @@
 - [x] Simple limelight -> shooter connection (Completed: 2026-02-07)
 
 ## Notes
-Yegor needs push the code worked on Saturday
+@DRIFT-4091/team-members needs push the code worked on Saturday
