@@ -1,0 +1,47 @@
+# Idea: Fuel Recollectation
+
+**Date:** 2026-02-14
+
+## Description
+What is the core idea?
+Make the robot just focus on recollecting fuel during the autonomous period until it cannot take anymore or until we move onto the teleoperated mode 
+
+## Potential Benefits
+Why is this idea worth considering?
+It allows the robot to be filled up, and unless there is code to make it shoot autonomously, during the teleoperated period we can control how and where
+it shoots better. If we shoot in autonomous well gain the same points as we would if we shoot in teleoperated mode, so it is better to have a for sure way 
+to get points instead of risking malfunction on hardware’s or software’s part during autonomous mode
+
+## Considerations
+What would be needed to implement this?
+code that would indicate the robot to only recollect fuel during the first 20 seconds of autonomous period. 
+
+
+## Status
+- [X] New idea
+- [ ] Under consideration
+- [ ] In development
+- [ ] Implemented
+- [ ] Archived
+
+
+# Idea: 
+
+**Date:** 2026-02-14
+
+## Description
+What is the core idea?
+
+## Potential Benefits
+Why is this idea worth considering?
+
+## Considerations
+What would be needed to implement this?
+
+
+## Status
+- [X] New idea
+- [ ] Under consideration
+- [ ] In development
+- [ ] Implemented
+- [ ] Archived
